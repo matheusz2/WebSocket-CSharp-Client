@@ -6,7 +6,7 @@ namespace WebSocketClient
 {
     public class Program
     {
-        const string SERVER = "LOCALHOST";
+        const string SERVER = "LOCALHOST:8082";
         static bool ExitProgram = false;
         static WebSocket ws;
         static void Main(string[] args)
